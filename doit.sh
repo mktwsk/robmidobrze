@@ -50,6 +50,7 @@ else
 	fi
 	rm /tmp/ghauth
 	gh auth setup-git
+	cd ~/git
 	git clone git@github.com:mktwsk/env.git
 fi
 
